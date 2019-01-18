@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 
-// import './App.css';
 import './Counter.css';
-
-// import Header from "./Header";
 import ButtonsPanel from './ButtonsPanel';
 
 class Counter extends Component {

@@ -12,7 +12,7 @@ The look of the project is in the attached picture.
 
 Do aplikacji licznika dodaj nowy komponent o nazwie "Step", którego zadaniem będzie ustawienie kroku, o ile będzie zwiększał się licznik (np. krok=5, to licznik za każdym kliknięciem przycisku będzie się zwiększał o 5).
 
-Dodatkowo przycisk "Zwiększ o X" ma pokazywać o ile będzie licznik będzie zwiększany (X to oczywiście wartość kroku). Minimalna wartość kroku to 1.
+Dodatkowo przycisk "Zwiększ o X" ma pokazywać o ile licznik będzie zwiększany (X to oczywiście wartość kroku). Minimalna wartość kroku to 1.
 
 Poglądowy wygląd projektu jest w załączonym obrazku.
 
