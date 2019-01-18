@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/counter-with-set-step-reactjs/precache-manifest.2bb7af2a870b3f12af62b4fbcda44da1.js"
+  "/counter-with-set-step-reactjs/precache-manifest.b752c524f8f29d01c135564a6ecf37cb.js"
 );
 
 workbox.clientsClaim();
