@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 
 import './Counter.css';
 import ButtonsPanel from './ButtonsPanel';
+import Step from './Step';
 
 class Counter extends Component {
   constructor(props) {
     super(props);
 
     let initValue = 0;
+    
 
     if (!isNaN(this.props.initValue)) {
       initValue = parseInt(this.props.initValue);
@@ -41,14 +43,15 @@ class Counter extends Component {
 
     return (
       <div className="counter">
-        {/* <Header/> */}
-        
         <span className="value">
           {this.state.counterValue}
         </span>
         <ButtonsPanel
           changeCounterValue={this.changeValue}
           resetCounterValue={this.resetCounter}/>
+
+        < Step />
+
       </div>
     );
   }

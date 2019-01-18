@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ButtonsPanel.css';
+
 class ButtonsPanel extends Component {
     resetOrReinitCounter = (reset) => {
         this.props.resetCounterValue(reset);
