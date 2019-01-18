@@ -1,7 +1,13 @@
 import React from 'react';
 
 const Header = () => {
-    return <h1>Licznik</h1>
+    return (
+        <div className="App">
+            <header className="App-header">
+                <h1 className="App-title">Licznik w ReactJS</h1>
+            </header>
+        </div>
+    )
 }
 
 export default Header;
